@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="course-admin-container">
+    <div class="courses-admin">
+        <script>deleteCoursesAdmin()</script>
+    </div>
+    <div class="input-admin">
+        <form class="md3-input-admin" action="" method="post">
+            <input type="text" class="md3-input" name="title" placeholder="title">
+            <p><textarea class="md3-input"  name="description"  cols="30" rows="10" placeholder="description"></textarea></p>
+            <p><textarea class="md3-input" name="full_description"  cols="30" rows="10" placeholder="full_description"></textarea></p>
+            <input type="text" class="md3-input" name="date_courses" placeholder="data_courses">
+            <input type="text" class="md3-input" name="price" placeholder="price">
+            <input class="md3-admin-btn" type="button" value="Добавить" onclick="addCourses(this.form) ">
+        </form>
+    </div>
+</div>
+</body>
+</html>
